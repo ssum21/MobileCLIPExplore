@@ -11,7 +11,6 @@ import SwiftUI
 struct MomentsListView: View {
     // StudioViewModel로부터 전달받는 모먼트 데이터 배열
     @Binding var moments: [Moment]
-
     var body: some View {
         // 데이터가 비어있을 경우와 아닌 경우를 분기하여 처리
         if moments.isEmpty {
@@ -54,7 +53,10 @@ struct MomentsListView: View {
 
 struct MomentCardView: View {
     @Binding var moment: Moment
-    
+    @State private var showingCaptionEditor = false
+    @State private var showingVoiceMemo = false
+
+
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
             // 1. 대표 이미지
@@ -80,12 +82,12 @@ struct MomentCardView: View {
                 // Voice / Caption 버튼
                 HStack(spacing: 12) {
                     Spacer()
-                    Button(action: { /* TODO: 음성 녹음 기능 구현 */ }) {
+                    Button(action: { showingVoiceMemo = true }) {
                         Label("Voice", systemImage: "waveform")
                     }
                     .buttonStyle(MomentActionButtonStyle(hasContent: moment.voiceMemoPath != nil))
                     
-                    Button(action: { /* TODO: 캡션 작성 기능 구현 */ }) {
+                    Button(action: { showingCaptionEditor = true }) {
                         Label("Caption", systemImage: "pencil.and.ellipsis.rectangle")
                     }
                     .buttonStyle(MomentActionButtonStyle(hasContent: moment.caption != nil && !moment.caption!.isEmpty))
@@ -96,6 +98,13 @@ struct MomentCardView: View {
         .background(Color(red: 0.12, green: 0.12, blue: 0.12)) // 카드 배경색
         .cornerRadius(12)
         .foregroundColor(.white)
+        .sheet(isPresented: $showingCaptionEditor) {
+            CaptionEditorView(moment: $moment)
+        }
+        .sheet(isPresented: $showingVoiceMemo) {
+            VoiceMemoView(moment: $moment)
+        }
+
     }
 }
 

@@ -34,6 +34,9 @@
 		0670D1C52E3B2D910004FD46 /* TripsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0670D1C42E3B2D8C0004FD46 /* TripsListView.swift */; };
 		0670D1C72E3B2E1C0004FD46 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0670D1C62E3B2E180004FD46 /* ProfileView.swift */; };
 		0670D1C92E3B2EFB0004FD46 /* avatar-placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 0670D1C82E3B2EFB0004FD46 /* avatar-placeholder.png */; };
+		0670D1CB2E3B320F0004FD46 /* VoiceMemoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0670D1CA2E3B320C0004FD46 /* VoiceMemoViewModel.swift */; };
+		0670D1CD2E3B322B0004FD46 /* CaptionEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0670D1CC2E3B322A0004FD46 /* CaptionEditorView.swift */; };
+		0670D1CF2E3B323B0004FD46 /* VoiceMemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0670D1CE2E3B32390004FD46 /* VoiceMemoView.swift */; };
 		0692098F2E270347006CE3AB /* AccuracyTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0692098E2E270340006CE3AB /* AccuracyTestView.swift */; };
 		06C814AF2E172E1E00163D4F /* mobileclip_s2_text.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 06C814AE2E172E1E00163D4F /* mobileclip_s2_text.mlpackage */; };
 		06C814B02E172E1E00163D4F /* mobileclip_s0_image.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 06C814A92E172E1E00163D4F /* mobileclip_s0_image.mlpackage */; };
@@ -123,6 +126,9 @@
 		0670D1C42E3B2D8C0004FD46 /* TripsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsListView.swift; sourceTree = "<group>"; };
 		0670D1C62E3B2E180004FD46 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		0670D1C82E3B2EFB0004FD46 /* avatar-placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "avatar-placeholder.png"; sourceTree = "<group>"; };
+		0670D1CA2E3B320C0004FD46 /* VoiceMemoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceMemoViewModel.swift; sourceTree = "<group>"; };
+		0670D1CC2E3B322A0004FD46 /* CaptionEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptionEditorView.swift; sourceTree = "<group>"; };
+		0670D1CE2E3B32390004FD46 /* VoiceMemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceMemoView.swift; sourceTree = "<group>"; };
 		0692098E2E270340006CE3AB /* AccuracyTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccuracyTestView.swift; sourceTree = "<group>"; };
 		06C814A72E172E1E00163D4F /* mobileclip_blt_image.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = mobileclip_blt_image.mlpackage; sourceTree = "<group>"; };
 		06C814A82E172E1E00163D4F /* mobileclip_blt_text.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = mobileclip_blt_text.mlpackage; sourceTree = "<group>"; };
@@ -249,6 +255,9 @@
 		F3E8D49F2BF9E30A000FD824 /* MobileCLIPExplore */ = {
 			isa = PBXGroup;
 			children = (
+				0670D1CC2E3B322A0004FD46 /* CaptionEditorView.swift */,
+				0670D1CE2E3B32390004FD46 /* VoiceMemoView.swift */,
+				0670D1CA2E3B320C0004FD46 /* VoiceMemoViewModel.swift */,
 				0670D1C62E3B2E180004FD46 /* ProfileView.swift */,
 				0670D1BC2E3B2C7E0004FD46 /* MainTabView.swift */,
 				0670D1BE2E3B2CF30004FD46 /* SttudioView.swift */,
@@ -474,8 +483,10 @@
 				0670D1BF2E3B2CF80004FD46 /* SttudioView.swift in Sources */,
 				0670D1BD2E3B2C850004FD46 /* MainTabView.swift in Sources */,
 				06C814B52E172E1E00163D4F /* mobileclip_s0_text.mlpackage in Sources */,
+				0670D1CF2E3B323B0004FD46 /* VoiceMemoView.swift in Sources */,
 				0662DFD12E1C82F800B871B5 /* WhisperKitWidget.swift in Sources */,
 				0635979F2E259064005B1F90 /* ResNet50 (1).mlmodel in Sources */,
+				0670D1CB2E3B320F0004FD46 /* VoiceMemoViewModel.swift in Sources */,
 				063597A02E259064005B1F90 /* MobileNetV2.mlmodel in Sources */,
 				06DB23BF2E298479004EDD58 /* AlbumModels.swift in Sources */,
 				06C814B62E172E1E00163D4F /* mobileclip_s1_image.mlpackage in Sources */,
@@ -509,6 +520,7 @@
 				C3EF64682C135E220034EC11 /* mobileclip_s1_image.mlpackage in Sources */,
 				C3EF64672C135E220034EC11 /* mobileclip_s0_text.mlpackage in Sources */,
 				06DB23D12E29ACE5004EDD58 /* TripDetectorService.swift in Sources */,
+				0670D1CD2E3B322B0004FD46 /* CaptionEditorView.swift in Sources */,
 				060C9B142E319AAF001161E7 /* SearchResultsGrid.swift in Sources */,
 				C3EF64662C135E220034EC11 /* mobileclip_s0_image.mlpackage in Sources */,
 				C36A68AE2C1129B5001870ED /* DisplayPrediction.swift in Sources */,
@@ -665,6 +677,7 @@
 				INFOPLIST_KEY_NSCameraUsageDescription = "Use camera to get live feed of images";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = NSMicrophoneUsageDescription;
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "사진의 GPS 정보를 읽어 주변 장소를 분석하는 데 사용합니다.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Using WhiperKit";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -698,6 +711,7 @@
 				INFOPLIST_KEY_NSCameraUsageDescription = "Use camera to get live feed of images";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = NSMicrophoneUsageDescription;
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "사진의 GPS 정보를 읽어 주변 장소를 분석하는 데 사용합니다.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Using WhiperKit";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
