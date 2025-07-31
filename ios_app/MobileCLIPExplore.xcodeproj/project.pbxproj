@@ -27,6 +27,13 @@
 		0670D1B72E3AD16D0004FD46 /* POIMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0670D1B62E3AD16A0004FD46 /* POIMapView.swift */; };
 		0670D1B92E3AD52C0004FD46 /* TestingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0670D1B82E3AD52B0004FD46 /* TestingView.swift */; };
 		0670D1BB2E3AD5820004FD46 /* PhotoProcessingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0670D1BA2E3AD5790004FD46 /* PhotoProcessingService.swift */; };
+		0670D1BD2E3B2C850004FD46 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0670D1BC2E3B2C7E0004FD46 /* MainTabView.swift */; };
+		0670D1BF2E3B2CF80004FD46 /* SttudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0670D1BE2E3B2CF30004FD46 /* SttudioView.swift */; };
+		0670D1C12E3B2D3F0004FD46 /* StudioViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0670D1C02E3B2D380004FD46 /* StudioViewModel.swift */; };
+		0670D1C32E3B2D710004FD46 /* MomentsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0670D1C22E3B2D6C0004FD46 /* MomentsListView.swift */; };
+		0670D1C52E3B2D910004FD46 /* TripsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0670D1C42E3B2D8C0004FD46 /* TripsListView.swift */; };
+		0670D1C72E3B2E1C0004FD46 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0670D1C62E3B2E180004FD46 /* ProfileView.swift */; };
+		0670D1C92E3B2EFB0004FD46 /* avatar-placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 0670D1C82E3B2EFB0004FD46 /* avatar-placeholder.png */; };
 		0692098F2E270347006CE3AB /* AccuracyTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0692098E2E270340006CE3AB /* AccuracyTestView.swift */; };
 		06C814AF2E172E1E00163D4F /* mobileclip_s2_text.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 06C814AE2E172E1E00163D4F /* mobileclip_s2_text.mlpackage */; };
 		06C814B02E172E1E00163D4F /* mobileclip_s0_image.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 06C814A92E172E1E00163D4F /* mobileclip_s0_image.mlpackage */; };
@@ -109,6 +116,13 @@
 		0670D1B62E3AD16A0004FD46 /* POIMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POIMapView.swift; sourceTree = "<group>"; };
 		0670D1B82E3AD52B0004FD46 /* TestingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingView.swift; sourceTree = "<group>"; };
 		0670D1BA2E3AD5790004FD46 /* PhotoProcessingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoProcessingService.swift; sourceTree = "<group>"; };
+		0670D1BC2E3B2C7E0004FD46 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		0670D1BE2E3B2CF30004FD46 /* SttudioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SttudioView.swift; sourceTree = "<group>"; };
+		0670D1C02E3B2D380004FD46 /* StudioViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudioViewModel.swift; sourceTree = "<group>"; };
+		0670D1C22E3B2D6C0004FD46 /* MomentsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentsListView.swift; sourceTree = "<group>"; };
+		0670D1C42E3B2D8C0004FD46 /* TripsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsListView.swift; sourceTree = "<group>"; };
+		0670D1C62E3B2E180004FD46 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		0670D1C82E3B2EFB0004FD46 /* avatar-placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "avatar-placeholder.png"; sourceTree = "<group>"; };
 		0692098E2E270340006CE3AB /* AccuracyTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccuracyTestView.swift; sourceTree = "<group>"; };
 		06C814A72E172E1E00163D4F /* mobileclip_blt_image.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = mobileclip_blt_image.mlpackage; sourceTree = "<group>"; };
 		06C814A82E172E1E00163D4F /* mobileclip_blt_text.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = mobileclip_blt_text.mlpackage; sourceTree = "<group>"; };
@@ -235,7 +249,13 @@
 		F3E8D49F2BF9E30A000FD824 /* MobileCLIPExplore */ = {
 			isa = PBXGroup;
 			children = (
+				0670D1C62E3B2E180004FD46 /* ProfileView.swift */,
+				0670D1BC2E3B2C7E0004FD46 /* MainTabView.swift */,
+				0670D1BE2E3B2CF30004FD46 /* SttudioView.swift */,
 				0670D1BA2E3AD5790004FD46 /* PhotoProcessingService.swift */,
+				0670D1C02E3B2D380004FD46 /* StudioViewModel.swift */,
+				0670D1C22E3B2D6C0004FD46 /* MomentsListView.swift */,
+				0670D1C42E3B2D8C0004FD46 /* TripsListView.swift */,
 				0670D1B82E3AD52B0004FD46 /* TestingView.swift */,
 				060C9B1D2E343C0A001161E7 /* POIChooserView.swift */,
 				060C9B172E32FB5C001161E7 /* DBSCAN.swift */,
@@ -314,6 +334,7 @@
 			children = (
 				F3E8D4E12BFC5CEC000FD824 /* clip-merges.txt */,
 				F3E8D4E02BFC5CEC000FD824 /* clip-vocab.json */,
+				0670D1C82E3B2EFB0004FD46 /* avatar-placeholder.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -410,6 +431,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0670D1C92E3B2EFB0004FD46 /* avatar-placeholder.png in Resources */,
 				06F153332E26F356001E92FA /* top10_accuracy_inseo_2025-07-15.json in Resources */,
 				F3E8D4A82BF9E30B000FD824 /* Preview Assets.xcassets in Resources */,
 				F3E8D4E32BFC5CEC000FD824 /* clip-merges.txt in Resources */,
@@ -427,12 +449,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0670D1C32E3B2D710004FD46 /* MomentsListView.swift in Sources */,
 				06DB23CF2E29A8F1004EDD58 /* TripAlbumView.swift in Sources */,
 				C3D6B71F2C0E802500B791F6 /* InfoView.swift in Sources */,
 				06DB23C52E2984B0004EDD58 /* AlbumCreationService.swift in Sources */,
 				06DB23C92E29A8C2004EDD58 /* PhotoAssetView.swift in Sources */,
 				F3E8D4EA2BFC6174000FD824 /* ZSImageClassification.swift in Sources */,
 				060C9B1E2E343C0C001161E7 /* POIChooserView.swift in Sources */,
+				0670D1C72E3B2E1C0004FD46 /* ProfileView.swift in Sources */,
 				C36A68B42C1249B6001870ED /* PromptEditor.swift in Sources */,
 				063597AA2E25B30F005B1F90 /* POIRankingEngine.swift in Sources */,
 				06C814AF2E172E1E00163D4F /* mobileclip_s2_text.mlpackage in Sources */,
@@ -447,6 +471,8 @@
 				0692098F2E270347006CE3AB /* AccuracyTestView.swift in Sources */,
 				06C814B42E172E1E00163D4F /* mobileclip_blt_image.mlpackage in Sources */,
 				060C9B1A2E32FB9F001161E7 /* DBSCANClusteringService.swift in Sources */,
+				0670D1BF2E3B2CF80004FD46 /* SttudioView.swift in Sources */,
+				0670D1BD2E3B2C850004FD46 /* MainTabView.swift in Sources */,
 				06C814B52E172E1E00163D4F /* mobileclip_s0_text.mlpackage in Sources */,
 				0662DFD12E1C82F800B871B5 /* WhisperKitWidget.swift in Sources */,
 				0635979F2E259064005B1F90 /* ResNet50 (1).mlmodel in Sources */,
@@ -469,7 +495,9 @@
 				060C9B162E319ACF001161E7 /* ImageSearchView.swift in Sources */,
 				063597AC2E25B3B5005B1F90 /* UIImage+Extensions.swift in Sources */,
 				060C9B122E319A86001161E7 /* ImageSearchViewModel.swift in Sources */,
+				0670D1C12E3B2D3F0004FD46 /* StudioViewModel.swift in Sources */,
 				060C9B182E32FB60001161E7 /* DBSCAN.swift in Sources */,
+				0670D1C52E3B2D910004FD46 /* TripsListView.swift in Sources */,
 				06F153242E26DB4A001E92FA /* AppCategory.swift in Sources */,
 				F3E8D4DE2BFC5CA6000FD824 /* Utils.swift in Sources */,
 				0670D1BB2E3AD5820004FD46 /* PhotoProcessingService.swift in Sources */,
